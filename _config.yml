@@ -1,5 +1,5 @@
-url: https://hyeontak.github.io/PortFolio/
-baseurl: ""
+url: https://hyeontak.github.io
+baseurl: "/PortFolio"
 
 # Site settings
 title: Awesome Title
