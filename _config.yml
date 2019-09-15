@@ -1,5 +1,5 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://hyeontak.github.io/PortFolio/
+baseurl: ""
 
 # Site settings
 title: Awesome Title
@@ -63,3 +63,5 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+remote_theme : y7kim/agency-jekyll-theme
