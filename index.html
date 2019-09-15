@@ -1,16 +1,20 @@
-<!doctype html>
-<head>
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <script>
-    $(document).ready(function(){
-      $("#aaa").css("color","red");
-    });
-  </script>
+---
+layout: default
+---
 
-</head>
-<body>
-  <div>
-    <h1 id="aaa">test</h1>
-  </div>
-</body>
+<div class="home">
 
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
