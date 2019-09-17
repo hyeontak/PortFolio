@@ -7087,6 +7087,15 @@ button.bg-dark:focus {
   border-radius: 0.5rem !important;
 }
 
+.detailImg{
+  width:50%;
+}
+
+.skillsPointRed{
+  color:red;
+  font-size:1.2rem;
+}
+
 .rounded-top {
   border-top-left-radius: 0.5rem !important;
   border-top-right-radius: 0.5rem !important;
@@ -10752,7 +10761,7 @@ a.text-dark:hover, a.text-dark:focus {
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 }
 
